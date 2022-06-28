@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    #calculadora {
+        width: 90%;
+        border: none;
+        padding: 0;
+
+      
+    }
+
+    #result{
+        border-radius: 3px;
+       
+    }
+
+    .button{
+
+       border-radius: 1px;
+
+        font-size: 1rem;
+    }
+}

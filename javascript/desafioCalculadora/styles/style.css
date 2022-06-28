@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: whitesmoke;
+
+}
+
+
+
+#calculadora{
+
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px
+
+    
+}
+
+#result{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    background-color: white;
+
+    font-size: 2rem;
+    
+    font-weight: 100;
+
+    margin-bottom: 50px ;
+
+    border-radius: 10px;
+    
+    border: 1px solid gray;
+  
+    
+}
+
+
+.buttons{
+    display:  grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    
+    gap: 0.1rem;
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+
+
+    font-size: 1.5rem;
+    
+    font-weight: 100;
+
+    border: 1px solid darkgray ;
+
+    
+
+    background-color: white;
+ 
+ 
+}
+
+.sinais{
+    background: whitesmoke;
+}
+
+.deleteNumber{
+    
+    grid-column-start: 4;
+    
+}
+
+.clean{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+
